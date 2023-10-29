@@ -1,0 +1,42 @@
+@import "./mixins";
+*{
+    font-family: 'Montserrat' , sans-serif
+}
+#section{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+justify-content: space-evenly;
+@include mobile {
+    flex-direction: column;
+
+
+}
+
+.box1{
+    line-height: 40px; 
+letter-spacing: 0.2px;
+text-align: center;
+
+}
+.box2{
+    .image{
+       margin: 0;
+       @include mobile {
+        flex-direction: column;
+        width: 364px;
+        height: 360.889px;
+    
+    }
+      
+   
+   
+
+}
+}
+}
+
+
+
+

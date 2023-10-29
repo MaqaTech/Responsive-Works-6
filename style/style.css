@@ -1,0 +1,31 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  justify-content: space-evenly;
+}
+@media (max-width: 575px) {
+  #section {
+    flex-direction: column;
+  }
+}
+#section .box1 {
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+#section .box2 .image {
+  margin: 0;
+}
+@media (max-width: 575px) {
+  #section .box2 .image {
+    flex-direction: column;
+    width: 364px;
+    height: 360.889px;
+  }
+}/*# sourceMappingURL=style.css.map */

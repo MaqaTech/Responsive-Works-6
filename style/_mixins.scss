@@ -1,0 +1,22 @@
+@import "./variables";
+
+@mixin tv {
+    @media (max-width: #{$extra_large}) {
+    @content;
+    }
+}
+@mixin desktop {
+    @media (max-width: #{$large}) {
+    @content;
+    }
+}
+@mixin tablet {
+    @media (max-width: #{$medium}) {
+    @content;
+    }
+}
+@mixin mobile {
+    @media (max-width: #{$small}) {
+    @content;
+    }
+}
